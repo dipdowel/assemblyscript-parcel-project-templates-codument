@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "template-basic",
+    "template-canvas-2d-resizable"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}

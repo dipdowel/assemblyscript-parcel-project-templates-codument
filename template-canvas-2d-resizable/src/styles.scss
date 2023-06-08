@@ -1,0 +1,50 @@
+body {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  background: #ccc;
+  flex-direction: column;
+}
+
+#screen {
+  // make the border around the canvas to be minimum 120px
+  width: calc(100% - 120px);
+  height: calc(100% - 120px);
+
+  // Make the canvas to be minimum 320x240 and maximum 1280x1024 pixels.
+  // -------------------------------------------------------------------------------------------------------------------
+  // NB: These values are important. They are used as the source of truth for allocating WASM memory for the canvas.
+  // NB: See `README.md` for more details.
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 1024px;
+  max-height: 768px;
+  // -------------------------------------------------------------------------------------------------------------------
+
+  // trivial properties
+  background: #fff;
+  border: solid 1px #cc3333;
+}
+
+.text {
+  color: #888;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}

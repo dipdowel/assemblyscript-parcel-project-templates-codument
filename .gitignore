@@ -4,3 +4,7 @@ bower_components/
 
 build/
 dist/
+/.idea/.gitignore
+/.idea/assemblyscript-parcel-project-templates-codument.iml
+/.idea/modules.xml
+/.idea/vcs.xml
