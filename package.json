@@ -1,4 +1,12 @@
 {
+  "name": "assemblyscript-parcel-project-templates-codument",
+  "version": "1.0.0",
+  "description": "Templates for AssemblyScript-enabled project in Parcel",
+  "main": "index.js",
+  "bin": {
+    "init-as-parcel": "./index.js"
+  },
+  "author": "Leo Boguslavskiy",
   "private": true,
   "license": "MIT",
   "workspaces": [

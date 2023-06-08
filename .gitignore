@@ -8,3 +8,4 @@ dist/
 /.idea/assemblyscript-parcel-project-templates-codument.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+/.idea/prettier.xml
