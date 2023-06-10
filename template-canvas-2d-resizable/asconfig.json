@@ -4,8 +4,7 @@
       "sourceMap": true,
       "shrinkLevel": 0,
       "debug": true,
-      "memoryBase": 203031424
-
+      "memoryBase": 3145728
     },
     "release": {
       "sourceMap": false,
@@ -13,7 +12,8 @@
       "shrinkLevel": 2,
       "converge": false,
       "noAssert": false,
-      "debug": false
+      "debug": false,
+      "memoryBase": 3145728
     }
   },
   "options": {
