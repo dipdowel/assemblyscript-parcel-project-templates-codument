@@ -8,8 +8,13 @@
     "init-as-parcel": "./index.js"
   },
   "author": "Leo Boguslavskiy",
-  "private": true,
+  "private": false,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument.git"
+  },
+
   "workspaces": [
     "template-basic",
     "template-canvas-2d-resizable"
