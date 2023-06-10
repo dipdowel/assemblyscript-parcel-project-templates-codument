@@ -1,2 +1,5 @@
-# pseudo-voxel
-An attempt to create a very simple pseudo-3D imaging tool(s)
+# template-canvas-2d-resizable
+A template for a resizable canvas 2d context.
+
+#TODO:
+Write a proper README.md

@@ -5,8 +5,8 @@ export function copyTemplate(template) {
   console.log(`>>> : ${JSON.stringify(template)}`);
 
   try {
-    // Copy the template directory
-    fs.copySync(template.dirName, "./");
+    // Copy the template  to the user's directory
+    fs.cpSync(template.dirName, "./", { recursive: true });
   } catch (err) {
     console.error("Error copying template files:", err);
     process.exit(1);

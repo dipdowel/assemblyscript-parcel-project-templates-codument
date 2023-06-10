@@ -2,17 +2,32 @@
 "use strict";
 
 import readline from "readline";
+
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
 import { drawMenuTable } from "./installer/draw-menu-table.js";
 import { collectTemplates } from "./installer/collect-templates.js";
 import { copyTemplate } from "./installer/copy-template.js";
 
 //######################################################################################################################
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const packageRoot = path.resolve(__dirname, ".");
+
+console.log(packageRoot);
 //######################################################################################################################
 // process.exit(0);
 //######################################################################################################################
 
-const templates = collectTemplates();
+const templates = collectTemplates(packageRoot);
+
+// console.log(`>>> templates: ${JSON.stringify(templates)}`);
+//
+// process.exit(0);
 
 const tableData = templates.map((template, index) => ({
   key: index + 1, // we want our templates to be numbered starting from 1
