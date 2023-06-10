@@ -1,8 +1,7 @@
 import fs from "fs";
 
 export function copyTemplate(template) {
-  console.log(`Copying template "${template.title}"...`);
-  console.log(`>>> : ${JSON.stringify(template)}`);
+  console.log(`\nCopying template "${template.title}"...\n`);
 
   try {
     // Copy the template  to the user's directory

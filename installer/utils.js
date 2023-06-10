@@ -15,3 +15,5 @@ export function capitalize(str) {
 export function replaceHyphensWithSpaces(str) {
   return str.replace(/-/g, " ");
 }
+
+export const boldLine = "━".repeat(81);
