@@ -8,9 +8,19 @@ import { drawGrid } from "./draw-grid";
 let maxWidth: u32;
 let maxHeight: u32;
 
-// global variables for positioning the square on the screen each time we draw a new frame
-let _x: u32 = 10,
-  _y: u32 = 16,
+/**
+ * Returns a random integer between `min` and `max`.
+ * @param min
+ * @param max
+ */
+function getRandomInteger(min: u32, max: u32): u32 {
+  return <u32>(NativeMath.floor(NativeMath.random() * (max - min + 1)) + min);
+}
+
+// Global variables for positioning the square on the screen each time we draw a new frame.
+// The initial values of `_x` and `_y` are slightly randomized in order to make the animation unique each time.
+let _x: u32 = getRandomInteger(10, 45), // make the square start at a random X position between 10 and 45
+  _y: u32 = getRandomInteger(5, 50), // make the square start at a random Y position between 5 and 50
   _deltaX: i32 = +1,
   _deltaY: i32 = +1,
   _width: u32,
