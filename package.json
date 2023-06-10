@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Templates for AssemblyScript-enabled project in Parcel",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "init-as-parcel": "./index.js"
   },

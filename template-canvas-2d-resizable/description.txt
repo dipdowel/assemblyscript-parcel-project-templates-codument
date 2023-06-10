@@ -1,1 +1,1 @@
-An AssemblyScript/WASM project with a 2D canvas that resizes together with the browser window.
+An AssemblyScript/WASM project with a 2D canvas that resizes together with  the browser window.
