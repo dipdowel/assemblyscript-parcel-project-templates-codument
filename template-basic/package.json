@@ -1,12 +1,13 @@
 {
   "name": "template-basic",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "clean:dist": "rimraf dist/*",
     "clean:build": "rimraf build/*",
     "start": "yarn clean:dist && parcel src/index.html",
-    "build": "yarn clean:dist && parcel build src/index.html"
+    "build": "yarn clean:dist && parcel build src/index.html",
+    "build-subdir": "yarn clean:dist && parcel build --public-url . src/index.html"
   },
   "devDependencies": {
     "parcel": "^2.9.1",
