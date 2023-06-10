@@ -26,7 +26,7 @@ body {
   width: calc(100% - 120px);
   height: calc(100% - 120px);
 
-  // Make the canvas to be minimum 320x240 and maximum 1280x1024 pixels.
+  // Make the canvas to be minimum 320x240 and maximum 1024x768 pixels.
   // -------------------------------------------------------------------------------------------------------------------
   // NB: These values are important. They are used as the source of truth for allocating WASM memory for the canvas.
   // NB: See `README.md` for more details.
