@@ -14,7 +14,13 @@
     "type": "git",
     "url": "https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument.git"
   },
-
+"keywords": [
+    "assemblyscript",
+    "parcel",
+    "template",
+    "WASM",
+    "codument"
+  ],
   "workspaces": [
     "template-basic",
     "template-canvas-2d-resizable"
