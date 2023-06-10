@@ -1,6 +1,6 @@
 {
   "name": "assemblyscript-parcel-project-templates-codument",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Templates for AssemblyScript-enabled project in Parcel",
   "main": "index.js",
   "type": "module",
@@ -20,10 +20,6 @@
     "template",
     "WASM",
     "codument"
-  ],
-  "workspaces": [
-    "template-basic",
-    "template-canvas-2d-resizable"
   ],
   "devDependencies": {
     "prettier": "^2.8.8"
