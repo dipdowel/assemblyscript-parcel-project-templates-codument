@@ -8,7 +8,7 @@
    **NB: if you have existing project files in the directory where you run this generator, some of your files will be overwritten.**
 2. In the new directory run the following `npx` command:
 ```shell
-npx -p assemblyscript-parcel-project-templates-codument -c "init-as-parcel"
+npx -p assemblyscript-parcel-project-templates-codument@latest -c "init-as-parcel"
 ```
 3. Choose a template from the displayed list, enter its number and press 'Enter'.
 4. Run `npm install` or `yarn`
