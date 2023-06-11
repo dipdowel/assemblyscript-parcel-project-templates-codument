@@ -17,6 +17,15 @@ npx -p assemblyscript-parcel-project-templates-codument@latest -c "init-as-parce
 7. Edit `index.as.ts` (the AssemblyScript / WASM entry point). The changes should be reflected in the browser right away.
 
 
+
+### An important notice on `npx` and caching 
+`npx` caches packages, and the next time you call `npx` with the same package name, you might end up using an outdated version.
+To work around this issue and ensure that you're getting the latest version, 
+please append `@latest` to the package name, as shown in the example below:
+`npx -p assemblyscript-parcel-project-templates-codument@latest -c "init-as-parcel"`
+
+
+
 ## Available templates
 As of version 0.1.2, the following templates are available:
 
