@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3] - 2023-06-11
+### Fixed
+- `package-lock.json` added with the same versions of dependencies as in `yarn.json`. 
+   This (temporarily) fixes the bug with `npm i; npm run start` not working.
+
+
+
 ## [0.1.2] - 2023-06-10
 ### Added
 - This CHANGELOG.md file

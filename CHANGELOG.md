@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.4] - 2023-06-11
+### fixed
+- `template-canvas-2d-resizable` -- `npm i; npm run start` now works  
+
 ## [0.1.2] - 2023-06-10
 ### Changed
 - Documentation improved
