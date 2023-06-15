@@ -1,6 +1,6 @@
 {
   "name": "template-basic",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "scripts": {
     "clean:dist": "rimraf dist/*",
@@ -10,9 +10,9 @@
     "build-subdir": "yarn clean:dist && parcel build --public-url . src/index.html"
   },
   "devDependencies": {
-    "parcel": "^2.9.1",
-    "parcel-transformer-assemblyscript-codument": "^0.1.3",
-    "parcel-config-assemblyscript-codument": "^0.1.6",
+    "parcel": "^2.9.2",
+    "parcel-transformer-assemblyscript-codument": "^0.1.4",
+    "parcel-config-assemblyscript-codument": "*",
     "rimraf": "^5.0.0",
     "prettier": "^2.8.8"
   }
