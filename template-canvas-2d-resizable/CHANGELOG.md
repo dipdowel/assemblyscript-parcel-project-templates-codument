@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - 2023-06-16
+### Changed
+- Parcel version updated to 2.9.2
+- parcel-transformer-assemblyscript-codument updated to 0.1.4
+
 ## [0.1.3] - 2023-06-11
 ### Fixed
 - `package-lock.json` added with the same versions of dependencies as in `yarn.json`. 
