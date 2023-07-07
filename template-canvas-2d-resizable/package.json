@@ -10,8 +10,8 @@
     "build-subdir": "yarn clean:dist && parcel build --public-url . src/index.html"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.9.2",
-    "parcel": "^2.9.2",
+    "@parcel/transformer-sass": "2.9.3",
+    "parcel": "^2.9.3",
     "parcel-config-assemblyscript-codument": "*",
     "parcel-transformer-assemblyscript-codument": "^0.1.4",
     "prettier": "^2.8.8",
