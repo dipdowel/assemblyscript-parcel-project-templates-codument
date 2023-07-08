@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.7] - 2023-06-11
+### Changed
+- Templates don't have their own versions anymore, only the root-level package has a version
+- Dependency versions updated
+### Removed
+- Template-specific CHANGELOGs removed
+
+
+
+## [0.1.6] - 2023-xx-xx
+
 ## [0.1.5] - 2023-06-11
 ### Changed
 - README updated

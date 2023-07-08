@@ -1,6 +1,6 @@
 {
   "name": "template-basic",
-  "version": "1.2.0",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "clean:dist": "rimraf dist/*",
@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "parcel": "^2.9.2",
-    "parcel-transformer-assemblyscript-codument": "^0.1.4",
+    "parcel-transformer-assemblyscript-codument": "^0.1.5",
     "parcel-config-assemblyscript-codument": "*",
-    "rimraf": "^5.0.0",
+    "rimraf": "^5.0.1",
     "prettier": "^2.8.8"
   }
 
