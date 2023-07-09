@@ -1,0 +1,26 @@
+{
+  "name": "template-basic",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean:dist": "rimraf dist/*",
+    "clean:build": "rimraf build/*",
+    "as-cp-glue": "mkdir -p ./src/glue/ && cp ./build/index.as.js ./src/glue/index.as.js && cp ./build/index.as.d.ts ./src/glue/index.as.d.ts",
+    "as-build-dev": "node ./node_modules/assemblyscript/bin/asc.js assembly/index.as.ts --target debug",
+    "as-build-prd": "node ./node_modules/assemblyscript/bin/asc.js assembly/index.as.ts --target release",
+    "build-dev": "yarn clean:build && yarn as-build-dev && yarn as-cp-glue",
+    "build-prd": "yarn clean:build && yarn as-build-prd && yarn as-cp-glue",
+    "run-once":"yarn build-dev && yarn ts-node ./src/index.ts",
+    "start-OUTDATED": "yarn clean:dist && parcel src/index.html"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "prettier": "^2.8.8",
+    "assemblyscript": "^0.27.5",
+    "@types/node": "^20.1.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "wabt": "^1.0.24"
+  }
+
+}

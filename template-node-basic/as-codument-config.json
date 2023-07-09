@@ -1,0 +1,5 @@
+{
+  "consoleLogs": "off",
+  "displayStats": "on",
+  ".d.ts_path": "./src/wasm-module.d.ts"
+}
