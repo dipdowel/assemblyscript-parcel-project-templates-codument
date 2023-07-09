@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "clean-dev-files": "yarn rimraf build/*.d.ts build/*.map build/*.wat build/false",
+    "clean-dev-files": "rimraf build/*.d.ts build/*.map build/*.wat build/false",
     "tsnode": "node node_modules/ts-node/dist/bin.js",
-    "tscompile": "node node_modules/esbuild/bin/esbuild  ./src/index.ts --bundle --platform=node --outdir=build",
+    "tscompile2": "node node_modules/esbuild/bin/esbuild  ./src/index.ts --bundle --platform=node --outdir=build",
+    "tscompile": "esbuild ./src/index.ts --bundle --platform=node --outdir=build",
     "daemon": "node node_modules/nodemon/bin/nodemon.js  --watch src --watch assembly",
     "clean:dist": "rimraf dist/*",
     "clean:build": "rimraf build/*",
