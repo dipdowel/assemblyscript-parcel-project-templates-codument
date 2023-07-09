@@ -3,8 +3,6 @@
 import { addTwoNumbers } from "./helpers/add-two-numbers";
 // import { print } from "./env"
 
-
-
 /**
  * This is a simple addition of two i32 values.
  * Under the hood the addition will be
@@ -14,16 +12,12 @@ import { addTwoNumbers } from "./helpers/add-two-numbers";
 export function add(a: i32, b: i32): i32 {
   console.log("[WASM] Hi from the WASM world!");
 
-  // print("jajajja");
-
   // Call the function in the helper file
   const result = addTwoNumbers(a, b);
 
   // AssemblyScript allows printing to the console of your browser
-  console.log(`[WASM]    add(${a}, ${b}) --> ${result.toString(10)} `);
-
+  console.log(`[WASM] add(${a}, ${b}) --> ${result.toString(10)} `);
   // Return the result from WASM to the JavaScript world
+
   return result;
-
-
 }

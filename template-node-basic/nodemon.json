@@ -1,0 +1,10 @@
+{
+  "verbose": true,
+  "ignore": ["build/**",  "src/glue/index.as.js", "src/glue/index.as.d.ts", "src/get-wasm-module.ts"],
+  "execMap": {"ts": "true" },
+  "watch": [ "assembly", "src"],
+  "NO-delay": 1000,
+  "events": {
+    "restart": "npm run run-once"
+  }
+}
