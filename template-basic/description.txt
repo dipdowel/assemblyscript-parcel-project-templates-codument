@@ -1,1 +1,1 @@
-The most basic web AssemblyScript/WASM project. Good starting point for a new web application with WASM.
+The most basic web AssemblyScript/WASM project. A good starting point for a new web application with WASM.
