@@ -51,3 +51,7 @@ If you want to suggest an improvement to this project generator, please [fork it
 This template relies on the [Parcel transformer for AssemblyScript](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument).
 - If something in the Parcel transformer  does not work as expected, please [open an issue in the transformer repo](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/issues).
 - If you want to suggest an improvement to the transformer, please [fork it](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/) and open a PR.
+
+- - - - - - - - - - - - - 
+#### For developers
+Local debugging: `npx -c /home/<path-to-project-parent-dir>/assemblyscript-parcel-project-templates-codument/index.js`
