@@ -75,9 +75,10 @@ function displayMenu() {
       const isInputValid = validChoices.includes(chosenTemplateNumber);
 
       if (isInputValid) {
-        copyTemplate(templates[chosenTemplateNumber - 1]);
+        const templateIndex = chosenTemplateNumber - 1;
+        copyTemplate(templates[templateIndex]);
         rl.close();
-        showQuickstart();
+        showQuickstart(templates[templateIndex].title);
         process.exit(0);
       } else {
         errorMessage = `"${choice}" was an invalid choice. Try again please.`;
