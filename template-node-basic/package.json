@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "clean-dev-files": "yarn rimraf build/*.d.ts build/*.map build/*.wat build/false",
     "tsnode": "node node_modules/ts-node/dist/bin.js",
+    "tscompile": "node node_modules/esbuild/bin/esbuild  ./src/index.ts --bundle --platform=node --outdir=build",
     "daemon": "node node_modules/nodemon/bin/nodemon.js  --watch src --watch assembly",
     "clean:dist": "rimraf dist/*",
     "clean:build": "rimraf build/*",
@@ -11,13 +13,15 @@
     "as-compile-dev": "node ./node_modules/assemblyscript/bin/asc.js assembly/index.as.ts --target debug",
     "as-compile-prd": "node ./node_modules/assemblyscript/bin/asc.js assembly/index.as.ts --target release",
     "as-build-dev": "npm run --silent as-compile-dev && npm run --silent as-cp-glue",
-    "as-build-prd": "npm run --silent clean:build npm run as-compile-prd && npm run --silent as-cp-glue",
+    "as-build-prd": "npm run  as-compile-prd && npm run as-cp-glue",
     "run-once": "npm run --silent as-build-dev && npm run --silent tsnode ./src/index.ts",
-    "start": "npm run --silent run-once && npm run --silent run-once &&  npm run --silent daemon ./src/index.ts"
+    "start": "npm run --silent run-once && npm run --silent run-once &&  npm run --silent daemon ./src/index.ts",
+    "build": "npm run clean:build && npm run as-build-prd  && npm run tscompile && npm run clean-dev-files"
   },
   "devDependencies": {
     "@types/node": "^20.1.7",
     "assemblyscript": "^0.27.5",
+    "esbuild": "^0.18.11",
     "nodemon": "^3.0.1",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.1",

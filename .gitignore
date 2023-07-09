@@ -10,3 +10,4 @@ dist/
 /.idea/vcs.xml
 /.idea/prettier.xml
 /.idea/jsLibraryMappings.xml
+/template-node-basic/temp/

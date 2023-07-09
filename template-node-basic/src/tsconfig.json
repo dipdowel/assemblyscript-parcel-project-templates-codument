@@ -8,19 +8,17 @@
         "incremental": false,
         "noImplicitAny": true,
         "resolveJsonModule": true,
-        "moduleResolution": "NodeNext",
+        "moduleResolution": "node",
         "sourceMap": true,
-
         "rootDir": "src",
         "isolatedModules": true,
-
         "types": [/*"jest",*/ "node"],
         "composite": false,
 
-        "target": "es2021",
+        "target": "esnext",
         "module": "commonjs",
         "declaration": false,
-        "outDir": "./dist",
+        "outDir": "build",
         "strict": true
     },
     "include": ["src"],

@@ -9,6 +9,7 @@
       "debug": true
     },
     "release": {
+      "outFile": "build/index.as.wasm",
       "sourceMap": false,
       "optimizeLevel": 3,
       "shrinkLevel": 2,
