@@ -27,7 +27,7 @@ please append `@latest` to the package name, as shown in the example below:
 
 
 ## Available templates
-As of version 0.1.2, the following templates are available:
+As of version 0.2.0, the following templates are available:
 
 ### Basic
 - This template is a bare minimum to get started with an AssemblyScript/WASM-enabled web project.
@@ -41,6 +41,13 @@ As of version 0.1.2, the following templates are available:
 - This template demonstrates basics of animation with AssemblyScript
 - After installation, please consult the [README](https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument/tree/master/template-canvas-2d-resizable/README.md) of the template for more details.
 
+### NodeJS basic
+- This template is a bare minimum to get started with a NodeJS + AssemblyScript/WASM-enabled project.
+- The template provides automatic recompilation on file changes.
+- Contains a single working AssemblyScript function (`add()`) which is called from TypeScript.
+- The result is displayed in the terminal.
+- After installation, please consult the [README](https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument/tree/master/template-node-basic/README.md) of the template for more details.
+
 
 ## Feedback
 ### This template
@@ -53,5 +60,5 @@ This template relies on the [Parcel transformer for AssemblyScript](https://gith
 - If you want to suggest an improvement to the transformer, please [fork it](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/) and open a PR.
 
 - - - - - - - - - - - - - 
-#### For developers
-Local debugging: `npx -c /home/<path-to-project-parent-dir>/assemblyscript-parcel-project-templates-codument/index.js`
+#### For maintainers of this package
+Local execution: `npx -c /home/<path-to-project-parent-dir>/assemblyscript-parcel-project-templates-codument/index.js`
