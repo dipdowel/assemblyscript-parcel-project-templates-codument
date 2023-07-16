@@ -41,7 +41,7 @@ As of version 0.2.0, the following templates are available:
 - This template demonstrates basics of animation with AssemblyScript
 - After installation, please consult the [README](https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument/tree/master/template-canvas-2d-resizable/README.md) of the template for more details.
 
-### NodeJS basic
+### Node basic
 - This template is a bare minimum to get started with a NodeJS + AssemblyScript/WASM-enabled project.
 - The template provides automatic recompilation on file changes.
 - Contains a single working AssemblyScript function (`add()`) which is called from TypeScript.
