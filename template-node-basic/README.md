@@ -1,4 +1,4 @@
-# Your starting point for a new AssemblyScript / WASM NodeJS project
+# Your starting point for a new NodeJS + AssemblyScript (WASM) project
 - This template for a NodeJS + AssemblyScript projects allows to have a working NodeJS + AssemblyScript project up and running very quickly.
 - The template features a watcher based on [nodemon](https://www.npmjs.com/package/nodemon). Each time you change and save the code, it gets recompiled and executed automatically.  
 - **NB:** this template **does not** use [Parcel](https://parceljs.org/)!
