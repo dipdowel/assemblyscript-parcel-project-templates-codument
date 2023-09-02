@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.0] - 2023, September 2
+### Added
+- Preprocessor for removing debug code. See [details](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md#releaseproduction) 
+
 ## [0.2.2] - 2023, September 2
 ### Changed
 - package "cosmiconfig" downgraded to "7.1.0" by force, as the later versions break Parcel :(

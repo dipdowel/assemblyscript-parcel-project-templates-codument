@@ -13,6 +13,8 @@
 4. Open `http://localhost:1234` in your browser and observe the console output
 5. Edit something in `index.as.ts` and check the browser console again
 
+For details on fine-tuning (including preprocessor for excluding debug code) please see this [README](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md)
+
 ## Important notes on memory management
 In general, AssemblyScript provides garbage collection and automatic memory management. However, for a faster graphics 
 and animation performance it is possible to directly manipulate the area in application memory which maps 
