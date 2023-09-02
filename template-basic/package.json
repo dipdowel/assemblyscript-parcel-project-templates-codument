@@ -11,10 +11,16 @@
   },
   "devDependencies": {
     "parcel": "^2.9.3",
-    "parcel-transformer-assemblyscript-codument": "^0.1.5",
-    "parcel-config-assemblyscript-codument": "*",
+    "parcel-config-assemblyscript-codument": "0.1.11",
+    "parcel-transformer-assemblyscript-codument": "^0.1.8",
     "rimraf": "^5.0.1",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.3",
+    "cosmiconfig": "7.1.0"
+  },
+  "resolutions": {
+    "cosmiconfig": "7.1.0"
+  },
+  "overrides": {
+    "cosmiconfig": "7.1.0"
   }
-
 }

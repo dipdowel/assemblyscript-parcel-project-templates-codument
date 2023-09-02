@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.2] - 2023, September 2
+### Changed
+- package "cosmiconfig" downgraded to "7.1.0" by force, as the later versions break Parcel :(
+
+
+## [0.2.1] - 2023, September 2
+### Changed
+- parcel-transformer-assemblyscript-codument bumped to 0.1.6
+- as a result of ↑ ↑ ↑ AssemblyScript bumped to 0.27.9
+- Lock files for yarn and npm  removed from all the templates
+
+
 ## [0.2.0] - 2023, july 16
 ### Added
 - A new basic template for NodeJS projects added
