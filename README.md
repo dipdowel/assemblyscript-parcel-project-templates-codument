@@ -24,10 +24,25 @@ To work around this issue and ensure that you're getting the latest version,
 please append `@latest` to the package name, as shown in the example below:
 `npx -p assemblyscript-parcel-project-templates-codument@latest -c "init-as-parcel"`
 
+## Improved debug output management
+You can mark certain blocks of code as debug. You can choose not to include those blocks of code into your production build.
+That way you can have all your `console.log()` calls being executed in your development build and being removed from your production build.
+  
+**Use cases:**
 
+1. When you have complex `.toString()` methods in your AssemblyScript code that you want to use for
+   debugging but don't want to include them to your production build.
+2. When you want to use some helper functions in your AssemblyScript code for debugging purposes but don't want
+   to include them to your production build.
+3. When you want to ignore `import` statements in your AssemblyScript code that are used for debugging purposes (e.g.
+   for importing functions mentioned in point 2 above).
+4. When you want all the `console.log()` and similar calls not to be compiled into your build.
+
+For details please see [debug code preprocessing](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md#debug-code-preprocessing).
+  
 
 ## Available templates
-As of version 0.2.0, the following templates are available:
+As of version 0.4.0, the following templates are available:
 
 ### Basic
 - This template is a bare minimum to get started with an AssemblyScript/WASM-enabled web project.
@@ -50,7 +65,7 @@ As of version 0.2.0, the following templates are available:
 
 
 ## Feedback
-### This template
+### These templates
 If something in this project generator does not work as expected, please [open a github issue](https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument/issues).
 If you want to suggest an improvement to this project generator, please [fork it](https://github.com/dipdowel/assemblyscript-parcel-project-templates-codument/) and open a PR.
 

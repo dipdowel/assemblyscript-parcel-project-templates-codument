@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.0] - 2023, September 22
+### Added
+- Preprocessor for ignoring debug statements is now configurable. Switch it on and off for development and production builds separately in `as-codument-config.json`. See [details](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md#releaseproduction)
+### Changed
+- package "cosmiconfig" upgraded to "8.3.6" as it contains the fix and the package no longer breaks Parcel :)
+ 
 ## [0.3.0] - 2023, September 2
 ### Added
 - Preprocessor for removing debug code. See [details](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md#releaseproduction) 

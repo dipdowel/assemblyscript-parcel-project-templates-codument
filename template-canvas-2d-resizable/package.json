@@ -12,16 +12,16 @@
   "devDependencies": {
     "@parcel/transformer-sass": "2.9.3",
     "parcel": "^2.9.3",
-    "parcel-config-assemblyscript-codument": "0.2.0",
-    "parcel-transformer-assemblyscript-codument": "^0.2.0",
+    "parcel-config-assemblyscript-codument": "0.3.0",
+    "parcel-transformer-assemblyscript-codument": "^0.3.0",
     "prettier": "^3.0.3",
     "rimraf": "^5.0.1",
-    "cosmiconfig": "7.1.0"
+    "cosmiconfig": "8.3.6"
   },
   "resolutions": {
-    "cosmiconfig": "7.1.0"
+    "cosmiconfig": "8.3.6"
   },
   "overrides": {
-    "cosmiconfig": "7.1.0"
+    "cosmiconfig": "8.3.6"
   }
 }
