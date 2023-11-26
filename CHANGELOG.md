@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0] - 2023, November 26
+### Changed
+- "*-assemblyscript-codument" packages updated to 0.4.0
+  - "assemblyscript" updated to 0.27.22
+  - "parcel" updated to "2.10.3",
+  - "typescript" updated to  "5.3.2",
+
 ## [0.4.0] - 2023, September 22
 ### Added
 - Preprocessor for ignoring debug statements is now configurable. Switch it on and off for development and production builds separately in `as-codument-config.json`. See [details](https://github.com/dipdowel/parcel-transformer-assemblyscript-codument/blob/master/parcel-transformer-assemblyscript-codument/README.md#releaseproduction)

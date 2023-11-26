@@ -10,9 +10,9 @@
     "build-subdir": "yarn clean:dist && parcel build --public-url . src/index.html"
   },
   "devDependencies": {
-    "parcel": "^2.9.3",
-    "parcel-config-assemblyscript-codument": "0.3.0",
-    "parcel-transformer-assemblyscript-codument": "^0.3.0",
+    "parcel": "2.10.3",
+    "parcel-config-assemblyscript-codument": "0.4.0",
+    "parcel-transformer-assemblyscript-codument": "^0.4.0",
     "rimraf": "^5.0.1",
     "prettier": "^3.0.3",
     "cosmiconfig": "8.3.6"
