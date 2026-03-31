@@ -1,3 +1,5 @@
+> **⚠️ This project has been archived and is no longer actively maintained.**
+
 # AssemblyScript Parcel project templates
 
 - A collection of templates that helps to start a new AssemblyScript/WASM-enabled web project very quickly.
